@@ -10,6 +10,14 @@ header {
     border-bottom: 10px solid #000;
 }
 
+img{
+    border-radius: 15px;
+}
+
+img:hover{
+    transform: scale(1.05);
+}
+
 nav {
     text-align: left;
 }
@@ -37,14 +45,6 @@ a::before{
     height: 10px;
     margin-right: 10px;
     border-radius: 30px;
-}
-
-img{
-    border-radius: 15px;
-}
-
-img:hover{
-    transform: scale(1.05);
 }
 
 #button {
