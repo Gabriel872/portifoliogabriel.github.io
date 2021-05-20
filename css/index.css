@@ -62,7 +62,7 @@ a::before{
 }
 
 #main-banner {
-    display: flex;
+    display: inline-flex;
     height: 800px;
     border-bottom: 10px solid #000;
     background-color: #000;
