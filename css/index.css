@@ -1,5 +1,6 @@
 body{
     background-color: #181818;
+    width: 1440px;
 }
 
 header {
@@ -10,12 +11,12 @@ header {
     border-bottom: 10px solid #000;
 }
 
-img{
+.logo{
     border-radius: 15px;
     transition: transform 80ms linear;
 }
 
-img:hover{
+.logo:hover{
     transform: scale(1.05);
 }
 
@@ -26,18 +27,19 @@ nav {
 a {
     display: inline-flex;
     align-items: center;
-    color: #FFF;
-    font-size: 20px;
-    font-family: "Fira Code", Arial, Helvetica, sans-serif;
-    font-weight: 500;
-    text-decoration: none;
     margin-right: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Fira Code", Arial, Helvetica, sans-serif;
+    line-height: 26px;
+    text-decoration: none;
+    color: #FFF;
     transition: transform 80ms linear;
 }
 
 a:hover{
     color: #ffc774;
-    transform: scale(1.05);
+    transform: scale(1.04);
 }
 
 a::before{
@@ -49,7 +51,7 @@ a::before{
     border-radius: 30px;
 }
 
-#button {
+.button, .button-title {
     display: inline-block;
     background-color: #FFB84D;
     padding: 17px 20px 17px 20px;
@@ -59,12 +61,80 @@ a::before{
     transition: transform 80ms linear, background-color 80ms linear;
 }
 
-#button:hover{
+#main-banner {
+    display: flex;
+    height: 800px;
+    border-bottom: 10px solid #000;
+    background-color: #000;
+}
+
+.banner1 {
+    display: inline-block;
+    width: 950px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("/assets/img/house_forest_3d-wallpaper-1920x1080.jpg");
+}
+
+#title {
+    display: block;
+    margin-top: 116px;
+    margin-left: 90px;
+    width: 628px;
+    height: 184px;
+    background-color: #3A4042;
+    border-radius: 30px;
+    font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
+    text-shadow: 4px 4px 0px #000;
+}
+
+h1 {
+    display: inline-block;
+    margin: 40px 114px 30px;
+    font-size: 40px;
+    color: #FFB84D;
+}
+
+h2 {
+    display: inline-block;
+    margin: 0px 194px 44px;
+    font-size: 30px;
+    color: #FFF;
+}
+
+#button-containner {
+    display: flex;
+    justify-content: space-between;
+    width: 452px;
+    margin-left: 181px;
+    margin-top: 40px;
+}
+
+.banner2 {
+    display: inline-block;
+    width: 490px;
+    height: 100%;
+    margin-left: 5px;
+}
+
+.button-title {
+    display: inline-block;
+    width: 170px;
+    margin: 0px;
+    padding: 18px 20px 18px 20px;
+    text-align: center;
+    background-color: #FFB84D;
+    border-radius: 30px;
+    transition: transform 80ms linear, background-color 80ms linear;
+}
+
+.button:hover, .button-title:hover{
     background-color: #ffc774;
     color: #FFF;
     transform: scale(1.05);
 }
 
-#button::before{
+.button::before, .button-title::before{
     content: none;
 }
