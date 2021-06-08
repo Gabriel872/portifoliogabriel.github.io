@@ -89,13 +89,6 @@ a::before{
     text-shadow: 4px 4px 0px #000;
 }
 
-h1 {
-    display: inline-block;
-    margin: 40px 90px 30px;
-    font-size: 40px;
-    color: #FFB84D;
-}
-
 h2 {
     display: inline-block;
     margin: 0px 170px 44px;
