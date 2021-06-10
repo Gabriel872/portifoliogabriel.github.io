@@ -79,25 +79,6 @@ a::before{
     background-image: url("/assets/img/house_forest_3d-wallpaper-1920x1080.jpg");
 }
 
-#title {
-    display: block;
-    margin-top: 116px;
-    margin-left: 130px;
-    width: 580px;
-    height: 184px;
-    background-color: #3A4042;
-    border-radius: 30px;
-    font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
-    text-shadow: 4px 4px 0px #000;
-}
-
-h2 {
-    display: inline-block;
-    margin: 0px 170px 44px;
-    font-size: 30px;
-    color: #FFF;
-}
-
 #button-containner {
     display: flex;
     justify-content: space-between;
@@ -132,9 +113,4 @@ h2 {
 
 .button::before, .button-title::before{
     content: none;
-}
-
-.fixed {
-    position:fixed;
-    top:0;
 }
