@@ -14,13 +14,15 @@ header {
 .logo{
     border-radius: 15px;
     transition: transform 80ms linear;
+    -ms-interpolation-mode: nearest-neighbor;
+    image-rendering: pixelated;
 }
 
 .logo:hover{
     transform: scale(1.05);
 }
 
-nav {
+.menu {
     text-align: left;
 }
 
@@ -130,4 +132,9 @@ h2 {
 
 .button::before, .button-title::before{
     content: none;
+}
+
+.fixed {
+    position:fixed;
+    top:0;
 }
