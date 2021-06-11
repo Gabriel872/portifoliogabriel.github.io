@@ -1,0 +1,22 @@
+.button{
+    display: inline-block;
+    background-color: #FFB84D;
+    padding: 17px 20px 17px 20px;
+    margin-left: 10px;
+    margin-right: 0px;
+    border-radius: 30px;
+    transition: transform 80ms linear, background-color 80ms linear;
+    color: #FFF;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.button:hover{
+    background-color: #ffc774;
+    color: #FFF;
+    transform: scale(1.05);
+}
+
+.button::before{
+    content: none;
+}

@@ -1,4 +1,4 @@
-#title-box {
+.title-box {
     display: inline-block;
     margin-top: 116px;
     margin-left: 130px;
@@ -10,6 +10,6 @@
     padding: 42px 46px;
 }
 
-#title-box h1{
+.title-box .title{
     margin-bottom: 28px;
 }
