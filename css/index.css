@@ -17,7 +17,6 @@
 #button-containner {
     display: flex;
     width: 452px;
-    background-color: blue;
     justify-content: center;
     margin-left: 194px;
     margin-top: 40px;
