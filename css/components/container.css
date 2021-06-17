@@ -1,0 +1,31 @@
+.container .content{
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.container h2{
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 16px;
+    color: #FFF;
+}
+
+.container img{
+    display: inline-block;
+    image-rendering: pixelated;
+}
+
+.container .bar{
+    box-sizing: border-box;
+    height: 40px;
+    width: 320px;
+    background-color: #f1f1f1!important;
+    border: 5px solid;
+    margin-bottom: 4px;
+}
+
+.container .fill{
+    width: 70%;
+    height: 100%;
+    background-color: #3385FF;
+}
