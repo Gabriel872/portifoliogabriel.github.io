@@ -1,0 +1,26 @@
+.project-card{
+    display: flex;
+    box-sizing: border-box;
+    background-color: #3385FF;
+    width: 280px;
+    height: 280px;
+    align-items: center;
+    box-shadow: 10px 10px 0px #FFF;
+    justify-content: center;
+}
+
+.project-card>.icon{
+    width: 210px;
+}
+
+.project-card.-second{
+    background-color: #FFB84D;
+}
+
+.project-card.-second>.icon{
+    width: 245px;
+}
+
+.project-card.-third>.icon{
+    width: 100%;
+}

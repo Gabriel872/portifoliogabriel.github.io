@@ -11,124 +11,135 @@
 
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/index.css">
-        <link rel="stylesheet" href="css/components/header.css">
-        <link rel="stylesheet" href="css/components/logo.css">
-        <link rel="stylesheet" href="css/components/actions.css">
-        <link rel="stylesheet" href="css/components/button.css">
-        <link rel="stylesheet" href="css/components/banner.css">
-        <link rel="stylesheet" href="css/components/title.css">
-        <link rel="stylesheet" href="css/components/subtitle.css">
+        <link rel="stylesheet" href="css/components/main-header.css">
+        <link rel="stylesheet" href="css/components/main-logo.css">
+        <link rel="stylesheet" href="css/components/main-actions.css">
+        <link rel="stylesheet" href="css/components/main-button.css">
+        <link rel="stylesheet" href="css/components/main-banner.css">
+        <link rel="stylesheet" href="css/components/main-title.css">
+        <link rel="stylesheet" href="css/components/main-subtitle.css">
         <link rel="stylesheet" href="css/components/title-box.css">
-        <link rel="stylesheet" href="css/components/skills-section.css">
-        <link rel="stylesheet" href="css/components/container.css">
+        <link rel="stylesheet" href="css/components/main-section.css">
+        <link rel="stylesheet" href="css/components/skill-tec.css">
+        <link rel="stylesheet" href="css/components/progress-bar.css">
+        <link rel="stylesheet" href="css/components/wrapper-skill.css">
+        <link rel="stylesheet" href="css/components/project-card.css">
+        <link rel="stylesheet" href="css/components/wrapper-projects.css">
     </head>
 
     <body style="background-color:#181818; width: 1440px;">
-        <header id="extraControls" class="header">
-            <img class="logo" src="../assets/img/icon-60x60.png" alt="Icone Slime Battle">
+        <header class="main-header">
+            <img class="main-logo" src="../assets/img/icon-60x60.png" alt="Icone Slime Battle">
 
-            <nav class="menu">
-                <a class="action" href="" lang="en">Skills</a>
-                <a class="action" href="">Projectos</a>
-                <a class="action" href="">Sobre</a>
-                <a class="action" href="">Contatos</a>
-                <a class="button" href="/assets/download/Currículo_Gabriel.pdf" download="Currículo_Gabriel.pdf.pdf" lang="en">Download CV</a>
+            <nav class="nav-menu">
+                <a class="main-action" href="" lang="en">Skills</a>
+                <a class="main-action" href="">Projetos</a>
+                <a class="main-action" href="">Sobre</a>
+                <a class="main-action" href="">Contatos</a>
+                <a class="main-button" href="/assets/download/Currículo_Gabriel.pdf" download="Currículo_Gabriel.pdf.pdf" lang="en">Download CV</a>
             </nav>
         </header>
-        <section class="banner">
-            <div class="wrapper">
+        <section class="main-banner">
+            <div class="wrapper-banner">
                 <div class="title-box">
-                    <h1 class="title">Gabriel H.</h1>
-                    <h2 class="subtitle">Game Dev</h2>
+                    <h1 class="main-title">Gabriel H.</h1>
+                    <h2 class="main-subtitle">Game Dev</h2>
                 </div>
-                <div class="navigation">
-                    <a class="button" href="/assets/download/Currículo_Gabriel.pdf" download="Currículo_Gabriel.pdf.pdf" lang="en">Download CV</a>
-                    <a class="button" href="">Contatos</a>
+                <div class="navigation-buttons">
+                    <a class="main-button" href="/assets/download/Currículo_Gabriel.pdf" download="Currículo_Gabriel.pdf.pdf" lang="en">Download CV</a>
+                    <a class="main-button" href="">Contatos</a>
                 </div>
             </div>
         </section>
-        <section class="skills-section">
-            <div class="wrapper-skills">
-                <h1 class="title -second">Skills</h1>
-                <div class="list-skills">
-                    <div class="skills-box">
-                        <div class="container">
-                            <img src="/assets/img/ico_html5.png" style="margin-right: 9.4px;" alt="">
-                            <div class="content">
-                                <h2 >HTML</h2>
-                                <div class="bar">
-                                    <div class="fill"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="container">
-                            <img src="/assets/img/ico_css3.png" style="margin-right: 9.4px;" alt="">
-                            <div class="content">
-                                <h2>CSS</h2>
-                                <div class="bar">
-                                    <div class="fill"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="container">
-                            <img src="/assets/img/ico_js.png" alt="">
-                            <div class="content">
-                                <h2>JavaScript</h2>
-                                <div class="bar">
-                                    <div class="fill"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="container">
-                            <img src="/assets/img/ico_react.png" style="margin-right: 4px;" alt="">
-                            <div class="content" style="margin-left: 12px;">
-                                <h2>React</h2>
-                                <div class="bar">
-                                    <div class="fill"></div>
-                                </div>
-                            </div>
+        <section class="main-section">
+            <h2 class="main-title -second" lang="en">Skills</h2>
+            <div class="wrapper-skill">
+                <article class="skill-tec">
+                    <img class="icon" src="/assets/img/ico_html5.png" alt="Ícone HTML5 em pixel art">
+                    <div class="right">
+                        <h3 class="title">HTML</h3>
+                        <div class="progress-bar">
+                            <div class="fill"></div>
                         </div>
                     </div>
-                    <div class="skills-box">
-                        <div class="container">
-                            <img src="/assets/img/ico_nodejs.png" style="margin-right: 4px;" alt="">
-                            <div class="content">
-                                <h2>NodeJS</h2>
-                                <div class="bar">
-                                    <div class="fill"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="container">
-                            <img src="/assets/img/ico_tdd.png" alt="">
-                            <div class="content">
-                                <h2>TDD</h2>
-                                <div class="bar">
-                                    <div class="fill"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="container">
-                            <img src="/assets/img/ico_restapi.png" alt="">
-                            <div class="content">
-                                <h2>Rest API</h2>
-                                <div class="bar">
-                                    <div class="fill"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="container">
-                            <img src="/assets/img/ico_ux.png" alt="Ux iamge" style="width: 90px; height: 54px;">
-                            <div class="content">
-                                <h2>UX</h2>
-                                <div class="bar">
-                                    <div class="fill"></div>
-                                </div>
-                            </div>
+                </article>
+                <!-- <article class="skill-tec">
+                    <img class="icon" src="/assets/img/ico_nodejs.png" alt="Ícone NodeJS em pixel art">
+                    <div class="right">
+                        <h3 class="title">NodeJs</h3>
+                        <div class="progress-bar">
+                            <div class="fill"></div>
                         </div>
                     </div>
-                </div>
-                
+                </article> -->
+                <article class="skill-tec">
+                    <img class="icon" src="/assets/img/ico_css3.png" alt="Ícone CSS em pixel art">
+                    <div class="right">
+                        <h3 class="title">CSS</h3>
+                        <div class="progress-bar">
+                            <div class="fill"></div>
+                        </div>
+                    </div>
+                </article>
+                <!-- <article class="skill-tec">
+                    <img class="icon" src="/assets/img/ico_tdd.png" alt="Ícone TDD em pixel art">
+                    <div class="right">
+                        <h3 class="title">TDD</h3>
+                        <div class="progress-bar">
+                            <div class="fill"></div>
+                        </div>
+                    </div>
+                </article> -->
+                <article class="skill-tec">
+                    <img class="icon" src="/assets/img/ico_js.png" alt="Ícone JavaScript em pixel art">
+                    <div class="right">
+                        <h3 class="title">JavaScript</h3>
+                        <div class="progress-bar">
+                            <div class="fill"></div>
+                        </div>
+                    </div>
+                </article>
+                <!-- <article class="skill-tec">
+                    <img class="icon" src="/assets/img/ico_restapi.png" alt="Ícone Rest API em pixel art">
+                    <div class="right">
+                        <h3 class="title" lang="en">Rest API</h3>
+                        <div class="progress-bar">
+                            <div class="fill"></div>
+                        </div>
+                    </div>
+                </article> -->
+                <!-- <article class="skill-tec">
+                    <img class="icon" src="/assets/img/ico_react.png" alt="Ícone React em pixel art">
+                    <div class="right">
+                        <h3 class="title" lang="en">React</h3>
+                        <div class="progress-bar">
+                            <div class="fill"></div>
+                        </div>
+                    </div>
+                </article> -->
+                <article class="skill-tec">
+                    <img class="icon" src="/assets/img/ico_ux.png" alt="Ícone UX em pixel art">
+                    <div class="right">
+                        <h3 class="title">UX</h3>
+                        <div class="progress-bar">
+                            <div class="fill"></div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="main-section -projects">
+            <h2 class="main-title -second">Projetos</h2>
+            <div class="wrapper-projects">
+                <article class="project-card">
+                    <!-- <img class="icon" src="/assets/img/logo-firedlabs.svg" alt="Ícone FireLabs"> -->
+                </article>
+                <article class="project-card -second">
+                    <!-- <img class="icon" src="/assets/img/collabcode.png" alt="Ícone CollabCode"> -->
+                </article>
+                <article class="project-card -third">
+                    <img class="icon" src="/assets/img/icon 2.png" alt="Ícone Slime em pixel art">
+                </article>
             </div>
         </section>
     </body>

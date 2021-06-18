@@ -1,10 +1,10 @@
-.logo{
+.main-logo{
     border-radius: 15px;
     transition: transform 80ms linear;
     -ms-interpolation-mode: nearest-neighbor;
     image-rendering: pixelated;
 }
 
-.logo:hover{
+.main-logo:hover{
     transform: scale(1.05);
 }

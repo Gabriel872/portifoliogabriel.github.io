@@ -1,0 +1,12 @@
+.progress-bar{
+    box-sizing: border-box;
+    background-color: #FFF;
+    border: 5px solid #000;
+    height: 40px;
+}
+
+.progress-bar>.fill{
+    height: 100%;
+    width: 5%;
+    background-color: #3385FF;
+}
