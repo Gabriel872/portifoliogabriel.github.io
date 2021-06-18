@@ -10,3 +10,7 @@
     width: 5%;
     background-color: #3385FF;
 }
+
+.progress-bar.-havexp>.fill{
+    width: 30%;
+}
