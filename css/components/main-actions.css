@@ -8,6 +8,7 @@
     text-decoration: none;
     color: #FFF;
     transition: transform 80ms linear;
+    outline: none;
 }
 
 .main-action:hover{

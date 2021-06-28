@@ -24,17 +24,22 @@
         <link rel="stylesheet" href="css/components/wrapper-skill.css">
         <link rel="stylesheet" href="css/components/project-card.css">
         <link rel="stylesheet" href="css/components/wrapper-projects.css">
+        <link rel="stylesheet" href="css/components/wrapper-about.css">
+        <link rel="stylesheet" href="css/components/main-description.css">
+        <link rel="stylesheet" href="css/components/button-arrow.css">
+        <link rel="stylesheet" href="css/components/node-card.css">
+        <link rel="stylesheet" href="css/components/main-carousel.css">
     </head>
 
-    <body style="background-color:#181818; width: 1440px;">
+    <body style="width: 1440px; background-color: #181818; margin: auto;">
         <header class="main-header">
             <img class="main-logo" src="../assets/img/icon-60x60.png" alt="Icone Slime Battle">
 
             <nav class="nav-menu">
                 <a class="main-action" href="#skills" lang="en">Skills</a>
-                <a class="main-action" href="">Projetos</a>
-                <a class="main-action" href="">Sobre</a>
-                <a class="main-action" href="">Contatos</a>
+                <a class="main-action" href="">Projects</a>
+                <a class="main-action" href="">About</a>
+                <a class="main-action" href="">Contacts</a>
                 <a class="main-button" href="/assets/download/Currículo_Gabriel.pdf" download="Currículo_Gabriel.pdf.pdf" lang="en">Download CV</a>
             </nav>
         </header>
@@ -50,8 +55,7 @@
                 </div>
             </div>
         </section>
-        <div class="skills">
-            <section class="main-section">
+        <section class="main-section">
                 <h2 class="main-title -second" lang="en">Skills</h2>
                 <div class="wrapper-skill">
                     <article class="skill-tec">
@@ -127,21 +131,69 @@
                         </div>
                     </article>
                 </div>
-            </section>
-        </div>
+        </section>
         <section class="main-section -projects">
-            <h2 class="main-title -second">Projetos</h2>
+            <h2 class="main-title -second">Projects</h2>
             <div class="wrapper-projects">
-                <article class="project-card">
-                    <!-- <img class="icon" src="/assets/img/logo-firedlabs.svg" alt="Ícone FireLabs"> -->
+                <!-- <article class="project-card">
                 </article>
                 <article class="project-card -second">
-                    <!-- <img class="icon" src="/assets/img/collabcode.png" alt="Ícone CollabCode"> -->
-                </article>
+                </article> -->
                 <article class="project-card -third">
                     <img class="icon" src="/assets/img/icon 2.png" alt="Ícone Slime em pixel art">
                 </article>
             </div>
         </section>
+        <section class="main-section -about">
+            <h2 class="main-title -second">About</h2>
+            <section class="main-carousel">
+                <button class="button-arrow -left"><span class="content">a</span></button>
+                <div class="items">
+                    <div class="elements">
+                        <figure class="node-card">
+                            <figcap class="title">2012</figcap>
+                            <div class="logo">
+                                <img src="assets/img/logo-locaweb.png" alt="Logo da LocaWeb">
+                            </div>
+                        </figure>
+                        <figure class="node-card -nopadding">
+                            <figcap class="title">2014</figcap>
+                            <div class="logo">
+                                <img src="assets/img/logo-caelum.png" alt="Logo da Caelum">
+                            </div>
+                        </figure>
+                        <figure class="node-card -bgblue">
+                            <figcap class="title">2016</figcap>
+                            <div class="logo">
+                                <img src="assets/img/logo-getninjas.png" alt="Logo da GetNinja">
+                            </div>
+                        </figure>
+                        <figure class="node-card -nopadding">
+                            <figcap class="title">2017</figcap>
+                            <div class="logo">
+                                <img src="assets/img/logo-caelum.png" alt="Logo da Caelum">
+                            </div>
+                        </figure>
+                        <figure class="node-card">
+                            <figcap class="title">2018</figcap>
+                            <div class="logo">
+                                <img src="assets/img/logo-impulso.png" alt="Logo da Impulso">
+                            </div>
+                        </figure>
+                        <figure class="node-card -bgblue">
+                            <figcap class="title">2019</figcap>
+                            <div class="logo">
+                                <img src="assets/img/logo-collabcode.png" alt="Logo da CollabCode">
+                            </div>
+                        </figure>
+                    </div>
+                </div>
+                <button class="button-arrow -right"><span class="content">a</span></button>
+            </section>
+            <p class="main-description">
+                Atualmente, estudando na faculdade de desenvolvimento de jogos na Uniasselvi e por conta própria. Começei na área de TI com curso técnico de informática e segui para a vertente de desenvolvimento de jogos. No momento estudo a engine Unity, porém pretendo aprender outras como Unreal, GameMaker e Godot. A vontade de desenvolver jogos surgiu da infância, por sempre estar me divertindo com jogos com meus amigos. Meu objetivo é divertir outras pessoas da mesma forma.
+            </p>
+        </section>
+        <script src="/js/components/main-carousel.js"></script>
     </body>
 </html>

@@ -1,0 +1,15 @@
+.wrapper-about{
+    display: flex;
+    width: 1440px;
+    justify-content: center;
+}
+
+.wrapper-about .border{
+    border: 5px solid #000;
+    width: 1300px;
+}
+
+.wrapper-about>.-left{
+    border: 5px dashed #000;
+    width: 40px;
+}
