@@ -1,0 +1,28 @@
+.main-form{
+    font-family: "Fira Code", Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+.main-form>.label{
+    font-size: 30px;
+    font-weight: 300;
+    color: #FFF;
+}
+
+.main-form>.input{
+    display: block;
+    box-sizing: border-box;
+    height: 50px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: "Fira Code";
+    border: 5px solid #000;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.main-form>.input.-message{
+    height: 320px;
+    margin-bottom: 40px;
+}
