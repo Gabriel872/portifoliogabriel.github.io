@@ -4,3 +4,7 @@
     padding: 25px 0px;
     justify-content: center;
 }
+
+.main-footer>.images{
+    margin:0px 15px;
+}
