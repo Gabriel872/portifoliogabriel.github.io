@@ -8,7 +8,7 @@
                 width: .6rem;
             }
             
-            body::-webkit-scrollbar-thumb {
+            body::-webkit-scrollbar-thumb{
                 border-radius: 50px;
                 background-color: #ffffff40;
             }
@@ -213,13 +213,14 @@
             <legend class="main-title -second">Contacts</legend>
 
             <label class="main-label" for="getName">Name:</label>
-            <input class="main-input" id="getName" type="text" autocomplete="off">
+            <input class="main-input" id="getName" type="text" autocomplete="off" required>
 
             <label class="main-label" for="getEmail">Email:</label>
             <input class="main-input" id="getEmail" type="email" name="email" required>
 
             <label class="main-label" for="getMessage">Message:</label>
-            <textarea class="main-input -message" id="getMessage"></textarea>
+            <textarea class="main-input -message" id="getMessage" required></textarea>
+
             <button class="main-button -alt" type="submit">Send</button>
         </form>
         <footer class="main-footer">
