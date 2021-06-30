@@ -8,6 +8,7 @@
     font-size: 20px;
     text-decoration: none;
     outline: none;
+    cursor: pointer;
 }
 
 .main-button.-alt{
