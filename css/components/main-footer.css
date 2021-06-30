@@ -1,5 +1,12 @@
 .main-footer{
-    height: 100px;
-    width: 100%;
     background-color: #000;
+    padding: 25px 0px;
+}
+
+.main-footer>.text{
+    text-align: center;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Fira Code", Arial, Helvetica, sans-serif;
 }

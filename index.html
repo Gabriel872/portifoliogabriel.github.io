@@ -3,6 +3,17 @@
     <head>
         <meta charset="UTF-8">
 
+        <style>
+            body::-webkit-scrollbar{
+                width: .6rem;
+            }
+            
+            body::-webkit-scrollbar-thumb {
+                border-radius: 50px;
+                background-color: #ffffff40;
+            }
+        </style>
+
         <link rel="sortcut icon" href="../assets/img/logo16x16.ico" type="image/x-icon">
         <title>Gabriel H. M. Bublitz</title>
         
@@ -31,7 +42,8 @@
         <link rel="stylesheet" href="css/components/main-carousel.css">
         <link rel="stylesheet" href="css/components/main-footer.css">
         <link rel="stylesheet" href="css/components/main-form.css">
-        <link rel="stylesheet" href="css/components/wrapper-form.css">
+        <link rel="stylesheet" href="css/components/main-label.css">
+        <link rel="stylesheet" href="css/components/main-input.css">
     </head>
 
     <body style="width: 1440px; background-color: #181818; margin: auto;">
@@ -70,15 +82,15 @@
                             </div>
                         </div>
                     </article>
-                    <!-- <article class="skill-tec">
-                        <img class="icon" src="/assets/img/ico_nodejs.png" alt="Ícone NodeJS em pixel art">
+                    <article class="skill-tec">
+                        <img class="icon" src="/assets/img/ico_js.png" alt="Ícone JavaScript em pixel art">
                         <div class="right">
-                            <h3 class="title">NodeJs</h3>
-                            <div class="progress-bar">
+                            <h3 class="title">C#</h3>
+                            <div class="progress-bar -havexp">
                                 <div class="fill"></div>
                             </div>
                         </div>
-                    </article> -->
+                    </article>
                     <article class="skill-tec">
                         <img class="icon" src="/assets/img/ico_css3.png" alt="Ícone CSS em pixel art">
                         <div class="right">
@@ -199,19 +211,20 @@
         </section>
         <section class="main-section -contacts">
             <h2 class="main-title -second">Contacts</h2>
-            <div class="wrapper-form">
-                <form class="main-form" action="">
-                    <label class="label" for="getName">Name:</label>
-                    <input class="input" id="getName" type="text" autocomplete="off">
-                    <label class="label" for="getEmail">Email:</label>
-                    <input class="input" id="getEmail" type="email">
-                    <label class="label" for="getMessage">Message:</label>
-                    <textarea class="input -message" name="" cols="30" rows="10"></textarea>
-                </form>
-                <button class="main-button -alt">Send</button>
-            </div>
+            <form class="main-form" action="">
+                <label class="main-label" for="getName">Name:</label>
+                <input class="main-input" id="getName" type="text" autocomplete="off">
+
+                <label class="main-label" for="getEmail">Email:</label>
+                <input class="main-input" id="getEmail" type="email" name="email" required>
+
+                <label class="main-label" for="getMessage">Message:</label>
+                <textarea class="main-input -message" id="getMessage"></textarea>
+                <button class="main-button -alt" type="submit">Send</button>
+            </form>
         </section>
         <footer class="main-footer">
+            <h3 class="text">Gabriel Henrique Mota Bublitz</h3>
         </footer>
         <script src="/js/components/main-carousel.js"></script>
     </body>
