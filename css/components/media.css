@@ -1,0 +1,64 @@
+/* Small screen */
+@media only screen and (max-width: 600px){
+    .main-banner{
+        padding: 20px 0px;
+        background: #3A4042;
+        height: max-content;
+    }
+
+    .main-banner>.wrapper-banner{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .wrapper-banner>.title-box{
+        margin-bottom: 0px;
+    }
+    
+    .title-box{
+        border-radius: 0px;
+        padding:42px 30px;
+    }
+
+    .navigation-buttons > .main-button:last-of-type{
+        display: none;
+    }
+
+    .main-title{
+        font-size: 30px;
+    }
+
+    .main-subtitle{
+        font-size: 20px;
+    }
+
+    .main-footer > .images{
+        display: inline-block;
+        width: 40px;
+    }
+
+    .main-footer > .images > img{
+        width: 100%;
+    }
+
+
+
+    .main-section#skills, .wrapper-projects{
+        display: none;
+    }
+
+    .nav-menu{
+        display: none;
+    }
+
+    .main-form{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    body{
+        width: 1440px;
+        margin: auto;
+    }
+}

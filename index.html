@@ -47,9 +47,12 @@
         <link rel="stylesheet" href="css/components/main-form.css">
         <link rel="stylesheet" href="css/components/main-label.css">
         <link rel="stylesheet" href="css/components/main-input.css">
+        <link rel="stylesheet" href="css/components/media.css">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
 
-    <body style="width: 1440px; background-color: #181818; margin: auto;">
+    <body style="background-color: #181818;">
         <header class="main-header">
             <a href="https://gabriel872.github.io">
                 <img class="main-logo" src="../assets/img/icon-60x60.png" alt="Icone Slime Battle">
@@ -234,7 +237,58 @@
             <a class="images" href="https://github.com/Gabriel872" target="_blanck">
                 <img  src="/assets/img/github.png" alt="Icone Github da Pixel Perfect">
             </a>
-        </footer>
+        </footer>                  
         <script src="/js/components/main-carousel.js"></script>
+
+        <script type="text/javascript">
+            //Modifica a vitrini
+            setTimeout(function()
+            {
+                var condicaoPagto = document.querySelectorAll('.valor-produto>.condicao-pagto>span');
+                for(i = 0; i < condicaoPagto.length; i++)
+                {
+                    condicaoPagto[i].textContent = "no boleto ou PIX com desconto";
+                }
+            }, 900);
+        </script>
+
+        <script type="text/javascript">
+            //PIX
+            setTimeout(function()
+            {
+                let pix_element = document.querySelector('.boleto>.values>.type-payment');
+                pix_element.textContent = "no boleto bancário ou PIX";
+
+                let element = document.querySelector('.full-price.flex.center>.flex.center');
+                // var child = element.children;
+
+                let img = document.createElement("img");
+                img.src = "https://user-images.githubusercontent.com/741969/99538099-3b7a5d00-298b-11eb-9f4f-c3d0cd4a5280.png"
+                img.classList.add("pix");
+                
+                element.appendChild(img);
+
+                const imgPix = document.querySelector('.pix');
+
+                imgPix.style = 
+                `
+                    width: 22px;
+                    height: 22px;
+                    order: -1;
+                    margin-right: 5px;
+                `;
+            }, 500);
+        </script>
+
+        <script type="text/javascript">
+            setTimeout(function()
+            {
+                var priceText = document.querySelectorAll('.product-info>.price-holder>.price-primary>.price-text');
+                for(i = 0; i < priceText.length; i++)
+                {
+                    priceText[i].textContent = "no Boleto ou PIX";
+                }
+            }, 3000);
+        </script>
     </body>
 </html>
