@@ -14,3 +14,19 @@
 .progress-bar.-havexp>.fill{
     width: 30%;
 }
+
+.progress-bar.-javascript>.fill{
+    width: 30%;
+}
+
+.progress-bar.-csharp>.fill{
+    width: 50%;
+}
+
+.progress-bar.-restapi>.fill{
+    width: 40%;
+}
+
+.progress-bar.-ux>.fill{
+    width: 20%;
+}

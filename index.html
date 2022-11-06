@@ -89,15 +89,15 @@
                             </div>
                         </div>
                     </article>
-                    <!-- <article class="skill-tec">
-                        <img class="icon" src="/assets/img/ico_js.png" alt="Ícone JavaScript em pixel art">
+                    <article class="skill-tec">
+                        <img class="icon" src="/assets/img/Csharp_Logo.png" alt="Ícone JavaScript em pixel art">
                         <div class="right">
                             <h3 class="title">C#</h3>
-                            <div class="progress-bar -havexp">
+                            <div class="progress-bar -csharp">
                                 <div class="fill"></div>
                             </div>
                         </div>
-                    </article> -->
+                    </article>
                     <article class="skill-tec">
                         <img class="icon" src="/assets/img/ico_css3.png" alt="Ícone CSS em pixel art">
                         <div class="right">
@@ -120,20 +120,20 @@
                         <img class="icon" src="/assets/img/ico_js.png" alt="Ícone JavaScript em pixel art">
                         <div class="right">
                             <h3 class="title">JavaScript</h3>
-                            <div class="progress-bar">
+                            <div class="progress-bar -javascript">
                                 <div class="fill"></div>
                             </div>
                         </div>
                     </article>
-                    <!-- <article class="skill-tec">
-                        <img class="icon" src="/assets/img/ico_restapi.png" alt="Ícone Rest API em pixel art">
+                    <article class="skill-tec">
+                        <img class="icon" src="/assets/img/api.png" alt="Ícone Rest API em pixel art, Freepik icon">
                         <div class="right">
                             <h3 class="title" lang="en">Rest API</h3>
-                            <div class="progress-bar">
+                            <div class="progress-bar -restapi">
                                 <div class="fill"></div>
                             </div>
                         </div>
-                    </article> -->
+                    </article>
                     <!-- <article class="skill-tec">
                         <img class="icon" src="/assets/img/ico_react.png" alt="Ícone React em pixel art">
                         <div class="right">
@@ -147,7 +147,7 @@
                         <img class="icon" src="/assets/img/ico_ux.png" alt="Ícone UX em pixel art">
                         <div class="right">
                             <h3 class="title">UX</h3>
-                            <div class="progress-bar">
+                            <div class="progress-bar -ux">
                                 <div class="fill"></div>
                             </div>
                         </div>
@@ -216,7 +216,7 @@
                 Atualmente estudando na faculdade de desenvolvimento de jogos na Uniasselvi e por conta própria. Começei na área de TI com curso técnico de informática e segui para a vertente de desenvolvimento de jogos. No momento estudo a engine Unity, porém pretendo aprender outras como Unreal, GameMaker e Godot. A vontade de desenvolver jogos surgiu da infância, por sempre estar me divertindo com jogos com meus amigos. Meu objetivo é divertir outras pessoas da mesma forma.
             </p>
         </section>
-        <form class="main-form" id="contacts">
+        <form action="https://formsubmit.co/gabriel.bublitz@hotmail.com" method="POST" class="main-form" id="contacts">
             <legend class="main-title -second">Contacts</legend>
 
             <label class="main-label" for="getName">Name:</label>
@@ -239,56 +239,5 @@
             </a>
         </footer>                  
         <script src="/js/components/main-carousel.js"></script>
-
-        <script type="text/javascript">
-            //Modifica a vitrini
-            setTimeout(function()
-            {
-                var condicaoPagto = document.querySelectorAll('.valor-produto>.condicao-pagto>span');
-                for(i = 0; i < condicaoPagto.length; i++)
-                {
-                    condicaoPagto[i].textContent = "no boleto ou PIX com desconto";
-                }
-            }, 900);
-        </script>
-
-        <script type="text/javascript">
-            //PIX
-            setTimeout(function()
-            {
-                let pix_element = document.querySelector('.boleto>.values>.type-payment');
-                pix_element.textContent = "no boleto bancário ou PIX";
-
-                let element = document.querySelector('.full-price.flex.center>.flex.center');
-                // var child = element.children;
-
-                let img = document.createElement("img");
-                img.src = "https://user-images.githubusercontent.com/741969/99538099-3b7a5d00-298b-11eb-9f4f-c3d0cd4a5280.png"
-                img.classList.add("pix");
-                
-                element.appendChild(img);
-
-                const imgPix = document.querySelector('.pix');
-
-                imgPix.style = 
-                `
-                    width: 22px;
-                    height: 22px;
-                    order: -1;
-                    margin-right: 5px;
-                `;
-            }, 500);
-        </script>
-
-        <script type="text/javascript">
-            setTimeout(function()
-            {
-                var priceText = document.querySelectorAll('.product-info>.price-holder>.price-primary>.price-text');
-                for(i = 0; i < priceText.length; i++)
-                {
-                    priceText[i].textContent = "no Boleto ou PIX";
-                }
-            }, 3000);
-        </script>
     </body>
 </html>
